@@ -6,12 +6,12 @@
 
   nav {
       height: 15vh;
-      background: #444;
+      background: tomato;
       color: #DDD;
   }
 
   main {
-      background: #EEE;
+      background #EEE;
       height: 85vh;
   }
 
@@ -33,4 +33,15 @@
     border: 1px solid #000;
     text-align: center;
     font-size: 2em;
+}
+
+button {
+    height: 30px;
+    width: 150px;
+    border-radius: 8px;
+    border-color:tomato;
+    background-color: tomato;
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    color: white;
 }
