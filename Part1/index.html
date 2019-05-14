@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Tic Tac Toe</title>
   <link rel="stylesheet" href="./index.css" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
 </head>
 
@@ -14,6 +15,12 @@
     <h1>Tic Tac Toe Board!</h1>
   </nav>
   <main>
+      <div id = "toptitle">
+      <span>Player </span>
+      <span id="player">X</span>
+      <span>'s Turn</span>
+    </div>
+
     <table>
       <tr class="row">
         <td id="0" onclick="play(0)"></td>
@@ -31,11 +38,9 @@
         <td id="8" onclick="play(8)"></td>
       </tr>
     </table>
-    <span>Player </span>
-    <span id="player">X</span>
-    <span>'s turn</span>
     
-    <div>
+    
+    <div class = "buttons">
       <button onclick ="resetBoard()">Reset Game</button>
     </div>
 
